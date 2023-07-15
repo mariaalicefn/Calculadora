@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="content">
+        <h1> Calculadora </h1>
+        <input type="number" id="num1" placeholder="Digite o primeiro número">
+        <section class="content2">
+            <input type="number" id="num2" placeholder="Digite o segundo número">
+            <button type="submit" id="clearBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+      </section> 
+        <section class="buttons">
+            <button id="soma"> <strong> Somar</strong></button>
+            <button id="subtracao"> <strong> Subtrair</strong></button>
+            <button id="multiplicacao"> <strong>Multiplicar</strong></button>
+            <button id="divisao"> <strong>Dividir</strong></button>
+        </section>
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family= Oswald :wght@500 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+
+}
+body {
+    background-image: url(../img/calculadora.png);
+    background-position: center;
+    background-size: cover;
+}
+.content {
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    height: 460px;
+
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+   
+}
+
+input {
+    padding: 0.5rem 0.5rem;
+    width: 50%;
+    margin: 0.5rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+h1{
+    color:#CAB4FF;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+h2 {
+    margin: 1rem;
+    color: #CAB4FF;
+    font-size: 30px;
+}
+
+#soma, #subtracao,#multiplicacao,#divisao {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #CAB4FF;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0rem 0rem 0rem 0rem;
+    margin-left: 48px;
+}
+#num2 {
+    width: 75%;
+}
+#clearBtn {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p {
+    font-size: 30px;
+}
+
+
+/* Tira as setas dos inputs de tipo number */
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
